@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 827px;
+    height: 1170px;
+    margin: 2rem auto;
+    border: 1px solid #0084b4;
+    color: #384347;
+}
+
+a {
+    color: #384347;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00aced;
+}
+
+.headings h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.headings h2 {
+    font-size: 1.6rem;
+    font-family: 'Lancelot', cursive;
+    margin-top: .4rem;
+}
+
+.headings h2 span {
+    font-size: 1.3rem;
+    font-family: 'Lancelot', cursive;
+    font-style: italic;
+}
+
+.admin {
+    margin-top: .5rem;
+    display: flex;
+}
+
+.admin li {
+    margin-top: .3rem;
+}
+
+
+#phone {
+    transform: rotate(90deg);
+}
+
+.admin i {
+    margin-right: .5rem;
+}
+
+.admin p {
+    display: inline-block;
+}
+
+.admin a:hover {
+    color: #c0deed;
+}
+
+.picture {
+    width: 20%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* 
+.header {
+    font-family: 'Lancelot', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nico {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.nico p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.header-title {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header-title h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.header img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+} */
+
