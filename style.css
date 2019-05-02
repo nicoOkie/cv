@@ -16,12 +16,12 @@ a {
 /* HEADER */
 
 .header {
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #00aced;
-    height: 20%;
+    height: 16%;
 }
 
 .headings h1 {
@@ -31,23 +31,28 @@ a {
 
 .headings h2 {
     font-size: 1.6rem;
-    font-family: 'Lancelot', cursive;
+    font-family: 'Lobster Two', cursive;
     margin-top: .4rem;
 }
 
 .headings h2 span {
     font-size: 1.3rem;
-    font-family: 'Lancelot', cursive;
+    font-family: 'Lobster Two', cursive;
     font-style: italic;
 }
 
 .admin {
     margin-top: .5rem;
+}
+
+.admin ol {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .admin li {
     margin-top: .3rem;
+    width: 50%;
 }
 
 
@@ -79,9 +84,21 @@ img {
 /* Main */
 
 .main {
-    height: 80%;
+    height: 84%;
     display: flex;
+    flex-wrap: wrap;
 }
+
+.top {
+    width: 100%;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: -2rem;
+}
+
 
 .left, .right {
     padding-left: 3rem;
@@ -153,6 +170,10 @@ img {
 .adminis-span {
     margin-right: .5rem;
     /* color: #00aced; */
+}
+
+.me-p {
+    margin-top: 1rem;
 }
 
 .talents {
