@@ -137,7 +137,7 @@ em {
 }
 
 .xp-unique ul {
-    list-style: disc outside;
+    list-style: outside;
     margin-top: .3rem;
     margin-left: 1.4rem;
 }
@@ -189,6 +189,14 @@ em {
 .right {
     width: 35%;
     padding-right: 3rem;
+}
+
+.adminis-list {
+    list-style: none outside;
+}
+
+.adminis-list li {
+    margin-top: .3rem;
 }
 
 .adminis p {
