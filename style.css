@@ -1,4 +1,9 @@
+html {
+    font-size: 85%;
+}
+
 body {
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     width: 827px;
@@ -10,7 +15,18 @@ body {
 
 a {
     color: #384347;
-    text-decoration: none;
+    /* text-decoration: none; */
+}
+
+strong {
+    font-weight: 500;
+}
+
+em {
+    color: #00aced;
+    font-style: normal;
+    font-size: .9em;
+    margin-left: 1rem;
 }
 
 /* HEADER */
@@ -21,7 +37,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background: #00aced;
-    height: 16%;
+    height: 13%;
 }
 
 .headings h1 {
@@ -42,10 +58,10 @@ a {
 }
 
 .admin {
-    margin-top: .5rem;
+    margin-top: .8rem;
 }
 
-.admin ol {
+.admin ul {
     display: flex;
     flex-wrap: wrap;
 }
@@ -76,27 +92,32 @@ a {
     width: 20%;
 }
 
-img {
+.portrait {
     max-width: 100%;
     border-radius: 50%;
+    padding: 1rem;
 }
 
 /* Main */
 
 .main {
-    height: 84%;
+    height: 87%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .top {
     width: 100%;
     font-family: 'Lobster Two', cursive;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-style: italic;
     text-align: center;
     padding-top: 1rem;
-    margin-bottom: -2rem;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -105,25 +126,31 @@ img {
 }
 
 .left {
-    width: 60%;
+    width: 65%;
 }
 .titles {
     color: #00aced;
     font-family: 'Lancelot', cursive;
     font-size: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
     border-bottom: 2px solid #00aced;
 }
 
-.xp-unique ol {
-    list-style: disc inside;
+.xp-unique ul {
+    list-style: disc outside;
     margin-top: .3rem;
+    margin-left: 1.4rem;
 }
+
+.xp-unique li {
+    margin-top: .1rem;
+}
+
 
 /* Left part */
 
 .xp-unique, .formation {
-    margin-top: 1rem;
+    margin-top: .8rem;
 }
 
 .role {
@@ -134,11 +161,12 @@ img {
 .company {
     font-style: italic;
     font-size: 1rem;
-    margin-top: .3rem;
+    margin-top: .4rem;
 }
 
 .time-wrapper {
     display: flex;
+    margin-top: .1rem;
 }
 
 .time-wrapper p {
@@ -151,11 +179,15 @@ img {
     width: 50%;
 }
 
+.formation ul {
+    margin-top: .5rem;
+}
+
 
 /* Right part */
 
 .right {
-    width: 40%;
+    width: 35%;
     padding-right: 3rem;
 }
 
@@ -194,4 +226,16 @@ img {
 
 .fa-circle {
     margin-left: .2rem;
+}
+
+.opquast {
+    margin-top: .5em;
+    width: 32%;
+}
+
+@media print {
+    body {
+        margin: 0;
+        border: none;
+    }
 }
