@@ -199,6 +199,38 @@ em {
     margin-top: .3rem;
 }
 
+.hobbies li {
+    margin-left: 2.2rem;
+    text-indent: -1.1rem;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: .7rem
+}
+
+.sport::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f206";
+}
+
+.reading::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f5da";
+}
+
+.music::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f001";
+}
+
 .adminis p {
     margin-top: .3rem;
 }
